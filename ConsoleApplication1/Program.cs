@@ -11,8 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var number = Console.ReadLine();
-            var value = GetDouble(number, 0);
+            var value = GetDouble(Console.ReadLine(), 0);
 
             Console.WriteLine(value);
             Console.ReadKey();
