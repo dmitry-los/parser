@@ -12,9 +12,9 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             var number = Console.ReadLine();
-            var dbn = GetDouble(number, 0);
+            var value = GetDouble(number, 0);
 
-            Console.WriteLine(dbn);
+            Console.WriteLine(value);
             Console.ReadKey();
         }
 
